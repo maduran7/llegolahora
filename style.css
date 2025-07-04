@@ -161,7 +161,7 @@ button:hover {
 
     /* Añade esta regla específica para la foto en pantallas pequeñas */
     #slideshow-container.active #foto {
-        max-width: 300px; /* Ajusta este valor según lo veas necesario */
+        max-width: 100px; /* Ajusta este valor según lo veas necesario */
         height: auto; /* Mantiene la proporción */
         margin: 0 auto 15px; /* Centra la imagen y añade espacio debajo */
     }
