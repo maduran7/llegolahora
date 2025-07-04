@@ -140,7 +140,7 @@ button:hover {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 368px) {
     .card {
         width: 90%;
         padding: 25px 20px;
@@ -161,7 +161,7 @@ button:hover {
 
     /* Añade esta regla específica para la foto en pantallas pequeñas */
     #slideshow-container.active #foto {
-        max-width: 100px; /* Ajusta este valor según lo veas necesario */
+        max-width: 200px; /* Ajusta este valor según lo veas necesario */
         height: auto; /* Mantiene la proporción */
         margin: 0 auto 15px; /* Centra la imagen y añade espacio debajo */
     }
