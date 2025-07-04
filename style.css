@@ -140,7 +140,7 @@ button:hover {
 }
 
 
-@media (max-width: 568px) {
+@media (max-width: 468px) {
     .card {
         width: 90%;
         padding: 25px 20px;
