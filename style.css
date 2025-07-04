@@ -140,13 +140,12 @@ button:hover {
 }
 
 
-/* -- Media Query para celulares -- */
 @media (max-width: 768px) {
     .card {
         width: 90%;
         padding: 25px 20px;
     }
-    
+
     /* En celulares, el slideshow se apila verticalmente */
     #slideshow-container.active {
         flex-direction: column;
@@ -156,15 +155,23 @@ button:hover {
     #slideshow-container #foto,
     #slideshow-container #texto {
         flex: 1 1 100%;
-        max-width: 100%;
-        text-align: center;
+        max-width: 100%; /* Aseguramos que ocupe el ancho completo del contenedor vertical */
+        text-align: center; /* Centramos la foto cuando está apilada */
+    }
+
+    /* Añade esta regla específica para la foto en pantallas pequeñas */
+    #slideshow-container.active #foto {
+        max-width: 300px; /* Ajusta este valor según lo veas necesario */
+        height: auto; /* Mantiene la proporción */
+        margin: 0 auto 15px; /* Centra la imagen y añade espacio debajo */
     }
 
     #slideshow-container #texto {
         margin-top: 15px;
         font-size: 1.2em;
+        text-align: center; /* Centramos el texto también */
     }
-    
+
     #propuesta h1 {
         font-size: 1.8em;
     }
