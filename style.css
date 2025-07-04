@@ -142,14 +142,14 @@ button:hover {
 
 @media (max-width: 468px) {
     .card {
-        width: 90%;
+        width: 70%;
         padding: 25px 20px;
     }
 
     /* En celulares, el slideshow se apila verticalmente */
     #slideshow-container.active {
         flex-direction: column;
-        width: 90%;
+        width: 60%;
     }
 
     #slideshow-container #foto,
