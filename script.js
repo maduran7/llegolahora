@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const textoEl = document.getElementById('texto');
 
     // --- CONFIGURACIÓN DEL CONTADOR ---
-    const fechaInicio = new Date('2025-04-06T00:00:00');
+    const fechaInicio = new Date('2025-04-06T19:00:00');
 
     function actualizarContador() {
         const ahora = new Date();
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // ¡¡IMPORTANTE!! Personaliza esto con tus fotos y textos
     const slides = [
         { foto: 'fotos/foto1.jpg', texto: 'Nuestra primera foto juntos.. Aquí no se notaba pero la verdad estaba demasiado nervioso.' },
-        { foto: 'fotos/foto2.jpg', texto: 'Aquí, ya mi corazón empezaba a later a mil por hora, nos dimos nuestro primer beso y me flechaste por completo.' },
+        { foto: 'fotos/foto2.jpg', texto: 'Aquí, ya mi corazón empezaba a latir a mil por hora, nos dimos nuestro primer beso y me flechaste por completo.' },
         { foto: 'fotos/foto3.jpg', texto: 'Los días pasaban, y yo cada segundo me sentía mas afortunado de recopilar momentos contigo.' },
         { foto: 'fotos/foto4.jpg', texto: 'Y como no enamorarme de ti? Si te robaste hasta el último rincón de mi corazón.' },
         { foto: 'fotos/foto5.jpg', texto: 'Me fui dando cuenta que lo que estábamos viviendo, iba a ser para siempre. Este día estabas particularmente hermosa.' },
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
         slideshowContainer.classList.add('active');
         
         mostrarSiguienteSlide(); // Muestra la primera imagen de inmediato
-        intervaloSlideshow = setInterval(mostrarSiguienteSlide, 15000); // Cambia cada 15 segundos
+        intervaloSlideshow = setInterval(mostrarSiguienteSlide, 10000); // Cambia cada 15 segundos
     });
 
     // Al hacer clic en "Sí"
